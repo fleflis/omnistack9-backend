@@ -1,0 +1,11 @@
+{
+  "name": "omnistack-backend",
+  "version": "1.0.0",
+  "description": "Backend da aplicacão da semana Omnistack 9.0, feito em nodejs",
+  "main": "src/server.js",
+  "author": "Fleflis",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
