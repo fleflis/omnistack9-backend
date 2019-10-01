@@ -1,9 +1,7 @@
 import { Router } from 'express';
-
+import SessionController from './controllers/SessionController';
 const routes = Router();
 
-routes.post('/users', (req,res) => {
-    res.json(req.body)
-})
+routes.post('/sessions', SessionController.store)
 
 module.exports = routes;
