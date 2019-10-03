@@ -1,4 +1,4 @@
-import Booking from '../models/Booking';
+const Booking = require('../models/Booking')
 
 module.exports = {
     async store(req, res) {

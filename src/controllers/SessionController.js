@@ -1,5 +1,5 @@
 // index, show, store, update, destroy
-import User from '../models/User';
+const User = require('../models/User')
 
 
 module.exports = {
