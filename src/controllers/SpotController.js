@@ -30,6 +30,6 @@ module.exports = {
             price
         })
 
-        return res.json({ ok : true})
+        return res.json(spot)
     }
 }
