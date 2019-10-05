@@ -1,6 +1,7 @@
 const express = require('express')
 const mongoose = require('mongoose')
 const cors = require('cors')
+const path = require('path')
 
 
 const routes = require('./routes')
@@ -14,4 +15,5 @@ app
     .use(cors())
     .use(express.json())
     .use(routes)
+    .use('/files', express.static(path.resolve(__dirname,'..','uploads')))
     .listen(3141)
